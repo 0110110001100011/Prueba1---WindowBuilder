@@ -1,10 +1,10 @@
 
 public class Cerveza {
-	private String marca;
-	private float precio;
-	private int ml;
+	public String marca;
+	public double precio;
+	public int ml;
 	
-	public Cerveza(String marca, float precio, int ml){
+	public Cerveza(String marca, double precio, int ml){
 		super();
 		this.setMarca(marca);
 		this.setPrecio(precio);
@@ -19,12 +19,12 @@ public class Cerveza {
 		this.marca = marca;
 	}
 
-	public float getPrecio() {
+	public double getPrecio() {
 		return precio;
 	}
 
-	public void setPrecio(float precio) {
-		this.precio = precio;
+	public void setPrecio(double precio2) {
+		this.precio = precio2;
 	}
 
 	public int getMl() {

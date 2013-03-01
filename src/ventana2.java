@@ -8,7 +8,6 @@ import javax.swing.DefaultComboBoxModel;
 import javax.swing.JTextField;
 import java.awt.event.ItemListener;
 import java.awt.event.ItemEvent;
-import javax.swing.JCheckBox;
 
 
 @SuppressWarnings("serial")
@@ -17,6 +16,7 @@ public class ventana2 extends JFrame {
 	public JTextField textField;
 	public JTextField textField_1;
 	public JTextField textField_2;
+	@SuppressWarnings("rawtypes")
 	public JComboBox comboBox;
 	public JLabel lblDatoq;
 	public JLabel lblNewLabel;
@@ -40,6 +40,7 @@ public class ventana2 extends JFrame {
 	
 	 * Create the frame.
 	 */
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	public ventana2() {
 		setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
 		setBounds(100, 100, 234, 294);

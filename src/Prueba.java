@@ -80,6 +80,8 @@ public class Prueba extends JFrame {
 		JButton btnNewButton = new JButton("7");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
+				Manejador man = new Manejador();
+				man.cadenas();
 			}
 		});
 		btnNewButton.setForeground(SystemColor.desktop);
